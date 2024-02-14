@@ -9,7 +9,7 @@ const mySuperStyles={
 function Cards(props) {
     return <>
         <div className="card my-3 mx-1" style={mySuperStyles}>
-            <div className="card-body text-center">
+            <div className="card-body d-flex justify-content-center">
                 <h1> {props.icon ?<FontAwesomeIcon icon={faClock} />:props.num}</h1>
             </div>
         </div>
